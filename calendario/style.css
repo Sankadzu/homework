@@ -1,0 +1,23 @@
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+td,caption,th {
+  border: 1px solid palevioletred;
+}
+
+.data {
+  color: crimson;
+}
+
+caption {
+  border-bottom: none;
+  font-weight: 600;
+}
+
+td {
+  font-size: 14px;
+}
