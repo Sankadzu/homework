@@ -1,0 +1,77 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+form {
+  display: inline-block;
+}
+
+.fieldset-1 {
+  border-bottom: 0;
+  border-radius: 8px 8px 0 0;
+  border-color: grey;
+  border-style: solid;
+  padding-right: 50px;
+  padding-bottom: 5px;
+}
+
+.fieldset-2 {
+  border-top: 0;
+  border-radius: 0 0 8px 8px;
+  border-color: grey;
+  border-style: solid;
+  padding-right: 50px;
+  padding-top: 0;
+}
+
+.title-1 {
+  font-weight: 700;
+  display: block !important;
+  margin: 8px 8px 8px 0
+}
+
+input, button {
+  display: block;
+  margin: 6px;
+}
+
+.input {
+  margin-left: 1px;
+  padding: 3px 62px 3px 8px;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+
+.title-2 {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 230px;
+  min-height: 30px;
+  padding-left: 8px;
+  border-radius: 6px;
+}
+
+.label {
+  display: block !important;
+}
+
+.checkbox {
+  cursor: pointer;
+  display: inline-block;
+}
+
+span {
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  padding: 3px 10px 3px 10px;
+  margin-left: 0;
+}
