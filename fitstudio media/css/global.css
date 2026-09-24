@@ -1,0 +1,89 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 375px;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 2px solid #3596ed;
+  outline-offset: 1px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535755;
+}
+
+.section {
+  margin-bottom: 140px;
+}
+
+.title-large {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  padding-bottom: 40px;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #2c332f;
+}
+
+.title-medium {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #2c332f;
+}
+
+@media (width <= 992px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (width <= 768px) {
+  .container {
+    width: 576px;
+  }
+}
+
+@media (width <= 576px) {
+  .section {
+  margin-bottom: 80px;
+  }
+}
