@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: var(--font-family);
+}
+
+.page__body {
+  max-width: 100%;
+  min-width: 375px;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin-inline: auto;
+}
+
+a, ul {
+  text-decoration: none;
+}
+
+@media (width > 992px) {
+  .container {
+    padding-inline: var(--container-padding); 
+  }
+}
+
+@media (width <= 992px) {
+  .container {
+    padding-inline: var(--container-padding-992);
+  }
+}
+
+@media (width <= 576px) {
+  .container {
+    padding-inline: var(--container-padding-576);
+  }
+}
