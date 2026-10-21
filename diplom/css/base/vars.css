@@ -1,0 +1,14 @@
+:root {
+
+/* font-family */
+  --font-family: Satoshi, sans-serif;
+
+  --second-family: IntegralCF, sans-serif;
+
+/* container */
+--container-width: 1880px;
+--container-padding: 100px;
+--container-padding-992: 50px;
+--container-padding-576: 16px;
+
+}
