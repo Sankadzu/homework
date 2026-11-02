@@ -1,0 +1,19 @@
+:root {
+
+/* font-family */
+  --font-family: Satoshi, sans-serif;
+
+  --second-family: IntegralCF, sans-serif;
+
+/* container */
+--container-width: 1240px;
+--container-padding: 100px;
+--container-padding-992: 40px;
+--container-padding-576: 16px;
+
+/* layers */
+--layer-negative: -1;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+}
