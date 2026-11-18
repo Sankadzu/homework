@@ -6,4 +6,11 @@
 
 /* blocks */
 @import "./blocks/header.css";
+@import "./blocks/burger.css";
+@import "./blocks/hero.css";
+@import "./blocks/product.css";
+@import "./blocks/styles.css";
+@import "./blocks/reviews.css";
+@import "./blocks/subscription.css";
+@import "./blocks/footer.css";
 
